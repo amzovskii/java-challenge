@@ -77,7 +77,7 @@ There are many ways test and run servlets, here are some suggestions.
 
         ```mvn jetty:run```
 
-    For more information see https://www.eclipse.org/jetty/documentation/9.4.x/maven-and-jetty.html 
+    For more information see https://www.eclipse.org/jetty/documentation.php 
 
 1. From the command line.
 
@@ -94,7 +94,7 @@ There are many ways test and run servlets, here are some suggestions.
    * Open the webpage http://localhost:8080
 
    For more information see
-   http://www.eclipse.org/jetty/documentation/9.4.x/quickstart-running-jetty.html
+   https://www.eclipse.org/jetty/documentation/jetty-9/index.html
 
 
 1. Using the VS Code Jetty extension.
