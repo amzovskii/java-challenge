@@ -2,6 +2,25 @@
 
 A simple example of a Java servlet.
 
+## The Challenge
+
+The challenge here is to create a Java servlet that parses XML that is fetched from the web, create a POJO from that XML, then create a JSON object out of that POJO and return it via the Servlet. You can find the XML at this URL:
+
+``` https://www.w3schools.com/xml/plant_catalog.xml ```
+
+The skeleton Servlet has already been set up for you, follow the `Running the Servlet` instructions below to get it running and test it out. 
+
+Here is the challenge laid out in steps:
+
+1. Read the XML and parse it into a Java POJO. An XML SAX parser has already been added to the project via Maven. Feel free to Google information on SAX parsers if you are not familiar with them. 
+
+2. Change the newly created POJO into a JSON array of objects. The `org.json` package is being imported into the project via Maven. You are free to google it if you are not familiar with it.
+
+3. Return the newly created JSON array to the user via the servlet.
+
+### Requirements
+
+1. Please do not simply transform the XML directly to JSON. POJOs must be used.
 
 
 ## Servlets
