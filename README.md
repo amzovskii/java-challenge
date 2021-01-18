@@ -24,6 +24,16 @@ Or you could select this from the ```Maven Projects``` in VS Code `Explorer` vie
 
 There are many ways test and run servlets, here are some suggestions.
 
+1. As a Maven build.
+
+    The ``Jetty plugin`` is included in this example's ```pom.xml``` enabling Jetty to be installed and started automatically via Maven.  
+    
+    * Use this command:
+
+        ```mvn jetty:run```
+
+    For more information see https://www.eclipse.org/jetty/documentation/9.4.x/maven-and-jetty.html 
+
 1. From the command line.
 
    * Download Jetty from http://www.eclipse.org/jetty/download.html
@@ -41,16 +51,6 @@ There are many ways test and run servlets, here are some suggestions.
    For more information see
    http://www.eclipse.org/jetty/documentation/9.4.x/quickstart-running-jetty.html
 
-
-1. As a Maven build.
-
-    The ``Jetty plugin`` is included in this example's ```pom.xml``` enabling Jetty to be installed and started automatically via Maven.  
-    
-    * Use this command:
-
-        ```mvn jetty:run```
-
-    For more information see https://www.eclipse.org/jetty/documentation/9.4.x/maven-and-jetty.html 
 
 1. Using the VS Code Jetty extension.
 
