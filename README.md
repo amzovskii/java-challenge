@@ -1,6 +1,6 @@
-# simple-servlet
+# Java Challenge Servlet
 
-A simple example of a Java servlet and a JSP. 
+A simple example of a Java servlet.
 
 
 
