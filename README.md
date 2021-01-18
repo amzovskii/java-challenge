@@ -22,6 +22,30 @@ Here is the challenge laid out in steps:
 
 1. Please do not simply transform the XML directly to JSON. POJOs must be used.
 
+### Return object
+
+This is how the data should be returned:
+
+```
+[{
+    "common": "Bloodroot",
+    "botanical": "Sanguinaria canadensis",
+    "zone": 4,
+    "light": "Mostly Shady",
+    "price": "$2.44",
+    "availability": "031599"
+},
+{
+    "common": "Columbine",
+    "botanical": "Aquilegia canadensis",
+    "zone": 3,
+    "light": "Mostly Shady",
+    "price": "$9.37",
+    "availability": "030699"
+}...]
+
+```
+
 
 ## Servlets
 
