@@ -6,13 +6,13 @@
       version="3.1">
 
    <servlet>
-      <servlet-name>People</servlet-name>
-      <servlet-class>servlets.People</servlet-class>
+      <servlet-name>Plants</servlet-name>
+      <servlet-class>servlets.Plants</servlet-class>
       <load-on-startup>1</load-on-startup>
    </servlet>
    <servlet-mapping>
-      <servlet-name>People</servlet-name>
-      <url-pattern>/people/*</url-pattern>
+      <servlet-name>Plants</servlet-name>
+      <url-pattern>/plants/*</url-pattern>
    </servlet-mapping>
 
 </web-app>
