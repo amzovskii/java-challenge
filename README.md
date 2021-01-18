@@ -12,7 +12,7 @@ The skeleton Servlet has already been set up for you, follow the `Running the Se
 
 Here is the challenge laid out in steps:
 
-1. Read the XML and parse it into a Java POJO. An XML SAX parser has already been added to the project via Maven. Feel free to Google information on SAX parsers if you are not familiar with them. 
+1. Read the XML and parse it into a Java POJO. An XML SAX parser has already been added to the project via Maven. Feel free to Google information on SAX parsers if you are not familiar with them. Or you can use another method for the unmarshalling that is not currently included in the pom.xml. So long as a POJO has been created from the XML.
 
 2. Change the newly created POJO into a JSON array of objects. The `org.json` package is being imported into the project via Maven. You are free to google it if you are not familiar with it.
 
