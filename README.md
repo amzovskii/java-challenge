@@ -1,6 +1,8 @@
 # Java Challenge Servlet
 
-A simple example of a Java servlet.
+This project contains a simple Java servlet skeleton used for the java coding challenge. Below details the information on the challenge and how to run the application.
+
+NOTE: You will need Maven installed to pull down all the repositories used in this challenge. It also makes it easier to start up the server and test it. 
 
 ## The Challenge
 
